@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>The Vic Group</title>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar background-nav h-nav-resp">
+        <div class="logo"><img src="img/project_logo.jpg" alt="logo"></div>
+        <ul class="nav-list v-class-resp">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+</header>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Home of Luxurious Short Term Rentals</p>
+                <p class="text-small">Whatever your needs are, whether it is for business, vacation, leisure, networking, we 
+                    have a variety of short term rentals to fit your needs. Inquire today to find out more!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">Rentals for Every Type of Occasion</p>
+            <p class="sectionSubTag text-small">At The Vic Group, we have an abundance of different types of short term rentals to meet
+                your needs. We have properties on the beachfront, in the woods, in the suburbs, in the city, whatever environment and atmosphere
+                you want, we got it. 
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/house_1.jpg" alt="House Image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectionTag text-big">Meet The Founder</p>
+            <p class="sectionSubTag text-small">Victoria Kyereme founded The Vic Group in the midst of a booming real estate market.
+                She realized that there was a market for people wanting to escape reality and find an oasis. She has years of experience
+                in real estate and in marketing and knows what her clients wants and needs. She listens to each of her clients to ensure
+                that she meets every single one of their guidelines and expectations. She knows the business very well and you will be in 
+                good hands with The Vic Group and finding your next short term rental.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/img_3.jpg" alt="profile image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">Our Services</p>
+            <p class="sectionSubTag text-small">
+                <ul class="">
+                    <li>Professional Cleaning Services</li>
+                    <li>Reliable Communication</li>
+                    <li>Safe and Secure Properties</li>
+                    <li>Essential Toiletries & Kitchen Utensils Provided</li>
+                    <li>Complimentary beverages & refreshments</li>
+                    <li>Fast and secure WiFi</li>
+                    <li>Private Transportation Available</li>
+                </ul> <br>
+                At The Vic Group, we pride ourselves on excellent hospitality and customer service. We treat every customer as a special 
+                guest in our homes. We want your stay to be as remarkable, memorable, and comfortable as possible. We are always available
+                to reach by phone or email.
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/apartment.jpg" alt="Condo Image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="properties" id="properties">
+        <h1 class="text-center">Properties For Rent</h1>
+        <div class="grid-container">
+            <div class="card">
+                <img src="img/house.jpg" alt="property" class="responsive">
+                <div class="container">
+                    <h4><b>4 bedroom, 3 bathroom home</b></h4>
+                    <p>This spacious and modern single family home has all of your needs!</p>
+                    <a href="contact.html">
+                        <button class="btn btn-sm btn-dark">Inquire</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/cabin.jpg" alt="property" class="responsive">
+                <div class="container">
+                    <h4><b>Log cabin with private lake</b></h4>
+                    <p>This spacious and modern cabin in the woods has all of your needs!</p>
+                    <a href="contact.html">
+                        <button class="btn btn-sm btn-dark">Inquire</button>
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/beach.jpg" alt="property" class="responsive">
+                <div class="container">
+                    <h4><b>Beachfront villa</b></h4>
+                    <p>This spacious and modern beachfront estate has all of your needs!</p>
+                    <a href="contact.html">
+                        <button class="btn btn-sm btn-dark">Inquire</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="text-center">Reviews</h1>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+                <q>I felt super comfortable and safe at the condo that I was staying at. Stellar service!</q>
+                <p class="author">- Mary Lewis</p>
+            </div>
+
+            <div class="mySlides">
+                <q>The location of the property was perfect. The host was very accomodating and reliable.</q>
+                <p class="author">- Johnny Stewart</p>
+            </div>
+
+            <div class="mySlides">
+                <q>I love booking rentals with The Vic Group. They do an amazing job to make guests feel at home!</q>
+                <p class="author">- Laura Jackson</p>
+            </div>
+
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <footer class="background">
+        <p class="text-footer">
+            Copyright &copy; 2023 - The Vic Group - All rights reserved
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
